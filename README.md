@@ -26,5 +26,5 @@ It is to help the voting process be smooth and handle the vote count automatical
 * Felix Macharia
 * Jane Nyasoro
 * Bruce
-
+* Elias
 
