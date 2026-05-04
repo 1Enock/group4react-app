@@ -47,9 +47,9 @@ function App() {
   };
 
   const deleteOption = (id) => {
-    const updated = options.filter((opt) => opt.id !== id);
-    setOptions(updated);
-  };
+  const updated = options.filter((opt) => opt.id !== id);
+  setOptions(updated);
+};
 
   const resetVotes = () => {
     const reset = [
