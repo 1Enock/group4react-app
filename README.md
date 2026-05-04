@@ -1,6 +1,38 @@
 # group4react-app
+<<<<<<< HEAD
 
 GROUP MEMBERS:
 1.Jane Nyasoro
 2.
 3.
+=======
+## Project overview
+The group4react-app is a web application that allows users to cast a vote and even add or remove a poll option.
+It has a feature that displays live vote count based on thee percentage of voes each candidate has received in each point in time.
+
+## Languages used
+* This project has heavily used JS, more specifically React.
+* It has also used Tailwind CSS for the styling and a bit of HTML elements in the .jsx files.
+
+## Installation
+This project requires no installation it can be run directly and easily ffom a web browser
+
+## How to run
+* Download or clone the repository:
+
+* Git clone https://github.com/1Enock/group4react-app.git
+* Open the project folder.
+* Navigate using cd command into the my-project directory then run `npm run dev` on the terminal
+
+## Purpose of the project
+It is to help the voting process be smooth and handle the vote count automatically without much manual labor.
+
+## Contributors
+* Myles Munroe
+* Enock Kibet
+* Felix Macharia
+* Jane Nyasoro
+* Bruce
+* Elias
+
+>>>>>>> b48da2a729e0b968a550fe232c56d3e899007d37

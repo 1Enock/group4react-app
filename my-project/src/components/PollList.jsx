@@ -1,22 +1,24 @@
 import PollOption from "./PollOption";
 
-function PollList({ options, vote, hasVoted }) {
-	if (!options || options.length === 0) {
-		return <p className="text-center text-gray-600">No candidates yet.</p>;
-	}
 
-	return (
-		<ul className="space-y-3">
-			{options.map((option) => (
-				<PollOption
-					key={option.id}
-					option={option}
-					vote={vote}
-					hasVoted={hasVoted}
-				/>
-			))}
-		</ul>
-	);
+function PollList({ options, vote, hasVoted }) {
+ const totalVotes = options.reduce((sum, o) => sum + o.votes, 0);
+
+
+ return (
+   <div className="space-y-4">
+     {options.map((option) => (
+       <PollOption
+         key={option.id}
+         option={option}
+         vote={vote}
+         hasVoted={hasVoted}
+         totalVotes={totalVotes}
+       />
+     ))}
+   </div>
+ );
 }
+
 
 export default PollList;
