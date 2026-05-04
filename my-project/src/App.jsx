@@ -47,10 +47,15 @@ function App() {
   };
 
   const resetVotes = () => {
-    const reset = options.map((opt) => ({ ...opt, votes: 0 }));
-    setOptions(reset);
-    setHasVoted(false);
-  };
+  const reset = [
+    { id: 1, text: "Myles (President)", votes: 9 },
+    { id: 2, text: "Enoch (Vice President)", votes: 14 },
+    { id: 3, text: "Jane (Secretary)", votes: 7 }
+  ];
+
+  setOptions(reset);
+  setHasVoted(false);
+};
 
   return (
     <>
