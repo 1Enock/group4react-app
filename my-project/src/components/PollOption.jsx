@@ -1,7 +1,5 @@
 function PollOption({ option, vote, hasVoted, totalVotes, deleteOption }) {
- const percentage =
-   totalVotes === 0
-     ? 0
+ const percentage = totalVotes === 0   ? 0
      : Math.round((option.votes / totalVotes) * 100);
 
 
@@ -36,6 +34,14 @@ function PollOption({ option, vote, hasVoted, totalVotes, deleteOption }) {
      >
        Vote ({percentage}%)
      </button>
+
+     {option.isCustom && (
+      <button onClick={() => deleteOption(option.id)}
+      className="bg-red-500 text-white px-2 py-1 mt-2 rounded"
+  >
+    Delete
+  </button>
+)}
    </div>
  );
 }
