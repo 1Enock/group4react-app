@@ -46,6 +46,11 @@ function App() {
     setHasVoted(true);
   };
 
+  const deleteOption = (id) => {
+  const updated = options.filter((opt) => opt.id !== id);
+  setOptions(updated);
+};
+
  const resetVotes = () => {
   const reset = [
     { id: 1, text: "Myles (President)", votes: 9 },
@@ -71,6 +76,7 @@ function App() {
             options={options}
             vote={vote}
             hasVoted={hasVoted}
+            deleteOption={deleteOption}
           />
 
           <div className="mt-6 text-center">
