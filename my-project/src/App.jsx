@@ -65,7 +65,7 @@ function App() {
         </h1>
 
         <div className="mx-auto max-w-xl">
-          <PollForm addOption={addOption} />
+          <PollForm addOption={addOption} options={options} />
 
           <PollList
             options={options}
