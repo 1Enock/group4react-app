@@ -14,6 +14,7 @@ function PollList({ options, vote, hasVoted }) {
          vote={vote}
          hasVoted={hasVoted}
          totalVotes={totalVotes}
+         deleteOption={deleteOption}
        />
      ))}
    </div>

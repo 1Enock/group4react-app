@@ -1,4 +1,4 @@
-function PollOption({ option, vote, hasVoted, totalVotes }) {
+function PollOption({ option, vote, hasVoted, totalVotes, deleteOption }) {
  const percentage =
    totalVotes === 0
      ? 0
