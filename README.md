@@ -12,13 +12,13 @@ It has a feature that displays live vote count based on thee percentage of voes 
 This project requires no installation it can be run directly and easily ffom a web browser
 
 ## How to run
-* Download or clone the repository:
+* clone the repository:
 
-* Git clone https://github.com/1Enock/group4react-app.git
+* `Git clone` https://github.com/1Enock/group4react-app.git
 * Open the project folder.
 * Navigate using cd command into the my-project directory then run `npm install`
 * Run`npm run dev` on the terminal
-
+* Run the localhost link on the terminal to display the web application
 ## Purpose of the project
 It is to help the voting process be smooth and handle the vote count automatically without much manual labor.
 
