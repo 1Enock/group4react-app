@@ -1,7 +1,7 @@
 import PollOption from "./PollOption";
 
 
-function PollList({ options, vote, hasVoted }) {
+function PollList({ options, vote, hasVoted, deleteOption }) {
  const totalVotes = options.reduce((sum, o) => sum + o.votes, 0);
 
 
