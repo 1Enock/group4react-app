@@ -15,7 +15,8 @@ This project requires no installation it can be run directly and easily ffom a w
 
 * Git clone https://github.com/1Enock/group4react-app.git
 * Open the project folder.
-* Navigate using cd command into the my-project directory then run `npm run dev` on the terminal
+* Navigate using cd command into the my-project directory then run `npm install`
+* Run`npm run dev` on the terminal
 
 ## Purpose of the project
 It is to help the voting process be smooth and handle the vote count automatically without much manual labor.
