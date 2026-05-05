@@ -26,6 +26,16 @@ function App() {
     localStorage.setItem("hasVoted", hasVoted);
   }, [hasVoted]);
 
+  useEffect(() => {
+    const handleStorageChange = (e) => {
+      if (e.key === "hasVoted") {
+        setHasVoted(e.newValue === "true");
+      }
+    };
+    window.addEventListener("storage", handleStorageChange);
+    return () => window.removeEventListener("storage", handleStorageChange);
+  }, []);
+
   const addOption = (text) => {
     const newOption = {
       id: Date.now(),
