@@ -24,7 +24,6 @@ It is to help the voting process be smooth and handle the vote count automatical
 
 ## Contributors
 * Myles Munroe
-* Enock Kibet
 * Felix Macharia
 * Jane Nyasoro
 * Bruce
